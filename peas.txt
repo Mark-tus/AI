@@ -1,0 +1,161 @@
+For each of the following activities, give a PEAS description of the task
+environment and characterize it in terms of the properties. Identify
+suitable Agent Architecture for the problem
+• Playing soccer.
+• Exploring the subsurface oceans of Titan.
+• Shopping for used AI books on the Internet.
+• Playing a tennis match.
+• Practicing tennis against a wall.
+• Performing a high jump.
+• Knitting a sweater.
+• Bidding on an item at an auction.
+• Medical diagnosis System for Covid-19
+Here are the PEAS descriptions and environment properties for each activity,
+along with suggested agent architectures:
+
+1. **Playing soccer**:
+ - **PEAS Description**:
+ - Performance Measure: Number of goals scored, passes made, successful
+tackles, etc.
+ - Environment: Soccer field, players, ball, referees, spectators, weather
+conditions.
+ - Actuators: Legs for running and kicking, arms for balance.
+ - Sensors: Eyes for vision (to locate teammates, opponents, ball), ears for
+hearing (referee's whistle, teammates' calls).
+ - **Properties**:
+ - Fully observable
+ - Multi-agent
+ - Competitive
+ - Continuous
+ - **Agent Architecture**: Reactive architecture with state-based decision
+making, possibly combined with planning for higher-level strategy.
+
+2. **Exploring the subsurface oceans of Titan**:
+ - **PEAS Description**:
+ - Performance Measure: Amount of data collected about subsurface ocean
+composition, geological features, potential for life, etc.
+ - Environment: Subsurface ocean environment of Titan, possibly with
+underwater geological formations, hydrothermal vents, unknown life forms.
+ - Actuators: Robotic arms for collecting samples, propulsion systems for
+movement.
+ - Sensors: Cameras, sonar, spectrometers, temperature sensors.
+ - **Properties**:
+ - Partially observable
+ - Multi-agent (if multiple exploration vehicles are involved)
+ - Uncertain
+ - Continuous
+ - **Agent Architecture**: Deliberative architecture with planning and
+reasoning capabilities to explore efficiently and adapt to unknown
+environments.
+
+3. **Shopping for used AI books on the Internet**:
+ - **PEAS Description**:
+ - Performance Measure: Number of desired books acquired within budget,
+satisfaction level with purchases.
+ - Environment: Online marketplace, various sellers, AI books listings,
+prices, reviews.
+ - Actuators: Mouse and keyboard for browsing, clicking, and typing.
+ - Sensors: Web browser for viewing listings, reading reviews, and
+comparing prices.
+ - **Properties**:
+ - Fully observable
+ - Single-agent
+ - Deterministic
+ - Discrete
+ - **Agent Architecture**: Utility-based agent architecture, possibly
+incorporating machine learning for personalized recommendations.
+
+4. **Playing a tennis match**:
+ - **PEAS Description**:
+ - Performance Measure: Number of sets won, points scored, accuracy of
+shots, etc.
+ - Environment: Tennis court, opponent, tennis ball, racket, umpire,
+spectators, weather conditions.
+ - Actuators: Arms for swinging racket, legs for movement.
+ - Sensors: Eyes for vision (to track ball trajectory, opponent's position), ears
+for hearing (umpire calls, ball contact sounds).
+ - **Properties**:
+ - Fully observable
+ - Multi-agent
+ - Competitive
+ - Continuous
+ - **Agent Architecture**: Reactive architecture with real-time decision
+making and fast responses to opponent's actions.
+
+5. **Practicing tennis against a wall**:
+ - **PEAS Description**:
+ - Performance Measure: Accuracy of shots, consistency, improvement over
+time.
+ - Environment: Tennis court, wall, tennis ball, racket.
+ - Actuators: Arms for swinging racket.
+ - Sensors: Eyes for vision (to track ball rebounds, analyze shots).
+ - **Properties**:
+ - Fully observable
+ - Single-agent
+ - Deterministic
+ - Continuous
+ - **Agent Architecture**: Reflex agent architecture with simple feedback
+loops for adjusting shot angles and strength.
+
+6. **Performing a high jump**:
+ - **PEAS Description**:
+ - Performance Measure: Height cleared, consistency, technique.
+ - Environment: High jump pit, bar, landing area, athlete's body.
+ - Actuators: Legs for jumping, arms for momentum.
+ - Sensors: Eyes for judging bar height, body position awareness.
+ - **Properties**:
+ - Fully observable
+ - Single-agent
+ - Deterministic
+ - Continuous
+ - **Agent Architecture**: Reflex agent architecture with sensory feedback
+loops for adjusting jump technique.
+
+7. **Knitting a sweater**:
+ - **PEAS Description**:
+ - Performance Measure: Completion time, quality of the sweater (e.g., even
+stitches, correct size).
+ - Environment: Knitting needles, yarn, pattern instructions, knitting space.
+ - Actuators: Hands and fingers for manipulating needles and yarn.
+ - Sensors: Eyes for vision (to follow pattern, check stitches).
+ - **Properties**:
+ - Fully observable
+ - Single-agent
+ - Deterministic
+ - Discrete
+ - **Agent Architecture**: Sequential architecture with planning capabilities
+to follow knitting patterns step by step.
+
+8. **Bidding on an item at an auction**:
+ - **PEAS Description**:
+ - Performance Measure: Successfully winning desired items within budget,
+minimizing costs.
+ - Environment: Online or physical auction platform, other bidders,
+auctioneer, items for sale.
+ - Actuators: Bidding interface (e.g., mouse clicks, voice commands).
+ - Sensors: Eyes for viewing item listings, current bid prices.
+ - **Properties**:
+ - Partially observable
+ - Single-agent
+ - Competitive
+ - Discrete
+ - **Agent Architecture**: Utility-based agent architecture, possibly
+incorporating game theory for strategic bidding.
+
+9. **Medical diagnosis System for Covid-19**:
+ - **PEAS Description**:
+ - Performance Measure: Accuracy of diagnosis, speed of diagnosis, patient
+outcomes.
+ - Environment: Medical facility, patient medical history, symptoms, test
+results, medical staff.
+ - Actuators: Recommendations for further tests, treatment plans.
+ - Sensors: Medical tests (e.g., PCR, blood tests, imaging), patient
+interviews.
+ - **Properties**:
+ - Partially observable
+ - Multi-agent (interacts with medical staff)
+ - Uncertain
+ - Discrete and Continuous (discrete symptoms, continuous test results)
+ - **Agent Architecture**: Expert system architecture with knowledge
+representation and reasoning capabilities, possibly incorporating machine
+learning for pattern recognition and prediction.
